@@ -3,7 +3,9 @@ using System;
 namespace MyApp
 {
 	public class Star {
-		public string Name { get; set; }
+		public string FirstName { get; set; }
+		
+		public string LastName { get; set; }
 		
 		public DateTime Birthdate { get; set; }
 	}
