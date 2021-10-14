@@ -10,5 +10,7 @@
 
 notes*.txt
 *.*~
+
+# C#
 bin/
 obj/
