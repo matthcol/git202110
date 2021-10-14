@@ -8,5 +8,7 @@ namespace MyApp
 		public DateTime Birthdate { get; set; }
 		
 		public bool Sex { get; set; }
+		
+		public int Notes { get; set; }
 	}
 }
