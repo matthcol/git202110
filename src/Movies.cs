@@ -12,5 +12,7 @@ namespace MyApp
 		public TimeSpan Duration { get; set; }
 		
 		public string Synopsis { get; set; }
+		
+		public Star Director { get; set; }
 	}
 }
