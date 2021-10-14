@@ -13,11 +13,29 @@ namespace MyApp
 			var movie4 = new Movie { Title = "Oui Oui" };
 			var movie5 = new Movie { Title = "Sqwid Game" };
 			var movie6 = new Movie { Title = "Non Non ;-)" };
-			var star = new Movie { Name = "Timothée Chalamet" };
+			var star = new Star { Name = "Timothée Chalamet" };
 			
 			Console.WriteLine("My app is good");
 
+			ShowMovie(movie0);
+			ShowMovie(movie1);
+			ShowMovie(movie2);
+			ShowMovie(movie3);
+			ShowMovie(movie4);
+			ShowMovie(movie5);
+			ShowMovie(movie6);
+
 			return 0;
+		}
+
+		public static void ShowMovie(Movie m)
+		{
+			Console.WriteLine(m.Title);
+		}
+
+		public static void ShowStar(Star s)
+		{
+			Console.WriteLine(s.Name);
 		}
 	}
 }

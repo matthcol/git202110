@@ -1,3 +1,6 @@
-public class Star {
-	public string Name { get; set; }
+namespace MyApp
+{
+	public class Star {
+		public string Name { get; set; }
+	}
 }
