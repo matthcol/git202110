@@ -8,7 +8,7 @@ namespace MyApp
 		
 		public int Year { get; set; }
 		
-		public int Duration { get; set; }
+		public TimeSpan Duration { get; set; }
 		
 		public string Synopsis { get; set; }
 	}
