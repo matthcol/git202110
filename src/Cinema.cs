@@ -10,5 +10,7 @@ namespace MyApp
 		public String GPS_Position { get; set; }
 
 		public List<Movie> Movies { get; }
+
+		public List<Star> Stars { get; }
 	}
 }
