@@ -14,7 +14,7 @@ namespace MyApp
 			var movie5 = new Movie { Title = "Squid Game" };
 			var movie6 = new Movie { Title = "Non Non ;-)" };
 			var movie7 = new Movie { Title = "La boum" };
-			var star = new Star { Name = "Timothée Chalamet" };
+			var star = new Star { FirstName = "Chalamet", LastName = "Timothée" };
 			
 			Console.WriteLine("My app is good");
 
