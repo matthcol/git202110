@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace MyApp
 {
@@ -7,5 +8,7 @@ namespace MyApp
 		public String Name { get; set; }
 		
 		public String GPS_Position { get; set; }
+
+		public List<Movie> Movies { get; }
 	}
 }
