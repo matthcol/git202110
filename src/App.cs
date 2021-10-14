@@ -36,7 +36,7 @@ namespace MyApp
 
 		public static void ShowStar(Star s)
 		{
-			Console.WriteLine(s.Name);
+			Console.WriteLine(s.FirstName + " " + s.LastName);
 		}
 	}
 }
