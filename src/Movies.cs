@@ -14,5 +14,7 @@ namespace MyApp
 		public string Synopsis { get; set; }
 		
 		public Star Director { get; set; }
+		
+		public int Score { get; set; }
 	}
 }
