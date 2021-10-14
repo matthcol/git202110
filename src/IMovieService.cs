@@ -1,5 +1,9 @@
-public interface IMovieService {
-	
-	boolean addMovie(Movie movie)
-	
+namespace MyApp
+{
+	public interface IMovieService {
+		
+		bool addMovie(Movie movie);
+
+		bool removeMovie(Movie movie);
+	}
 }
